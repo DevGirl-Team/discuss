@@ -1,0 +1,6 @@
+@echo off
+@echo %RANDOM%> modifier.txt
+@git add README.md
+@git add modifier.txt
+@git commit -m %1
+@git push
