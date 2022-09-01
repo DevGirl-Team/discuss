@@ -4,7 +4,8 @@
 !LICENSE
 !README.md
 
-!files/*
+!/files
+!/files/*
 !modifier.txt
 
 !create.bat
