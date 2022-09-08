@@ -1,6 +1,7 @@
 @echo off
 @git pull
 @git fetch origin --prune
+@cls
 @powershell write-host -fore Cyan Recently joined channels
 @git branch
 @powershell write-host -fore Cyan All channels
